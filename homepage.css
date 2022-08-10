@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bodoni&display=swap');
+
+h1 {
+  text-align: center;
+  font-family: 'Bodoni';
+  font-size: 60px;
+}
+
+body {
+  background-color: RGB: (250, 250, 250);
+}
+
+.icon {
+	image-size: 69px;
+	
+}
