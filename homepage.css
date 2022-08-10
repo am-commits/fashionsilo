@@ -2,16 +2,59 @@
 @import url('https://fonts.googleapis.com/css?family=Bodoni&display=swap');
 
 h1 {
-  text-align: center;
+  text-align: left;
   font-family: 'Bodoni';
-  font-size: 60px;
+  font-size: 30px;
 }
 
 body {
   background-color: RGB: (250, 250, 250);
 }
 
-.icon {
-	image-size: 69px;
-	
+.icon{
+  position: relative; 
+  top: -125px;
+  width: 10%;
+  height: 10%;
+}
+
+.topnav {
+  
+  padding: 10px;
+  text-align:center;
+}
+
+.titleName{
+  text-align:left;
+}
+
+
+.topnav a{
+	padding:10px;
+	text-decoration:none; 	
+	color:black;
+	font-family:Muli;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: 
+  color: white;
+}
+
+.container {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;  
+  background-color: rgb(189,189,189);
+  overflow:hidden;
+  margin: auto;
+  width: auto;
+  
+  padding-left:15px; 	
+  padding-right:15px;
 }
